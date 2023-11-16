@@ -37,9 +37,9 @@
 <!--
 <meta name="twitter:image:src" content="<php echo $site_url; ?>/img/content/content-0.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:site" content="@OtoGadget"/>
-<meta name="twitter:site:id" content="@OtoGadget"/>
-<meta name="twitter:creator" content="@OtoGadget"/>
+<meta name="twitter:site" content="@OtoGear"/>
+<meta name="twitter:site:id" content="@OtoGear"/>
+<meta name="twitter:creator" content="@OtoGear"/>
 <meta name="twitter:description" content="<php echo $video_desc; ?>"/>
 -->
 

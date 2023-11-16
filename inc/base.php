@@ -8,5 +8,5 @@
   $site_name = 'OtoGear';
   $site_title = 'OtoGear | Channel yang suka bahas-bahas ringan soal Otomotif.';
   $site_desc = 'Otogear menyajikan video informasi seputar otomotif terkini, test, review, harga, tips, modifikasi, dan komunitas.';
-  $site_url = 'https://www.otogadget.id';
+  $site_url = 'https://www.otogear.id';
 ?>
