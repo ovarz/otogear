@@ -1,8 +1,9 @@
 <?php 
+  $page = 'coming-soon';
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['OG'].'inc/meta.php')?>
-<div class="rancak-container content_center">
+<div class="rancak-container coming-soon content_center">
   <div class="rancak-box">
     <div class="rancak-logo content_center">
 	  <?php require ($_SERVER['OG'].'img/logo.svg')?>

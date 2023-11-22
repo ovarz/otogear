@@ -67,6 +67,22 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 });
 </script>
 
+
+
+<?php if($page == 'coming-soon') { ?>
+  <link rel="preload" href="css/coming-soon.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/coming-soon.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
+
+
+<?php if($page == 'article') { ?>
+  <link rel="preload" href="css/article.css?<?php echo $anticache; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/article.css?<?php echo $anticache; ?>"/>
+<?php } ?>
+
+
+
 </head>
 
 

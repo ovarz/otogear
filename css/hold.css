@@ -34,7 +34,7 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-.rancak-logo{color:var(--color-default-2); fill:var(--color-default-2); transition:var(--transition-default);}
+header{background-color:var(--bg-1);}
 
 
 
