@@ -38,9 +38,17 @@ header{background-color:var(--bg-1);}
 
 
 
-.article-link{border-color:rgb(var(--color-border-light) / 21%);}
+.article-link{border-color:var(--color-border);}
 .article-thumb-frame{border-radius:var(--rounded-2);}
 .article-date{color:var(--color-default-1);}
+
+
+
+.share{background-color:var(--color-border); border-radius:var(--rounded-2);}
+.share-facebook:hover{fill:var(--color-fb);}
+.share-twitter:hover{fill:var(--color-tw);}
+.share-whatsapp:hover{fill:var(--color-wa);}
+.share-telegram:hover{fill:var(--color-tg);}
 
 
 

@@ -35,19 +35,20 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 .flex_ori{display:block; overflow:hidden; position:relative; line-height:0;}
 .flex_ori:before{content:''; display:block;}
-.flex_ori img{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
+.flex_ori img, .flex_ori iframe{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
 .flex_ori img:not([src]){visibility:hidden;}
 
 
 
 .rancak-container{padding:var(--size-3) 0;}
 .rancak-container-max{width:100%; max-width:var(--site-container); padding:0 var(--size-4); margin:0 auto;}
-.rancak-container-split{display:grid; grid-gap:var(--size-6);}
+.rancak-container-split{display:grid; grid-gap:var(--size-5);}
 .rg-link{display:flex; align-items:center;}
 .rg-icon{line-height:100%;}
 .rg-icon .svgicon{width:auto; height:100%;}
 .rg-label{margin-left:var(--size-2); font-size:16px;}
 .section-title{font-size:24px; text-transform:uppercase; margin-bottom:var(--size-4);}
+.rancak-split-container{display:grid; grid-gap:var(--size-5);}
 
 
 
@@ -66,22 +67,27 @@ header{position:sticky; z-index:calc(var(--max-zindex) - 1000); top:0; padding:0
 .article-title{line-height:130%; font-weight:bold;}
 .article-date{font-size:12px; margin-top:var(--size-1);}
 @media screen and (min-width:640px){
-  .article-link{grid-template-columns:233px 1fr;}
+  .article-link{grid-template-columns:144px 1fr;}
   .article-thumb-frame:before{padding-top:56.25%;}
   .article-title{font-size:16px; line-height:140%;}
 }
 
 
 
+.share{display:flex; justify-content:space-between; align-items:center; padding:var(--size-2) var(--size-3);}
+.share-label{padding:0 var(--size-2);}
+.share-list{display:flex;}
+.share-link{padding:var(--size-2);}
+.share-link .svgicon{width:auto; height:24px;}
+
+
+
+
 .rancak-tiktok-box, .rancak-instagram-box{position:relative; width:100%;}
 .rancak-tiktok-box{max-height:400px;}
-.rancak-tiktok-box:before{padding-top:140%;}
+.rancak-tiktok-box:before{padding-top:70%;}
 .rancak-instagram-box:before{padding-top:calc(66.66% + 160px);}
 .rancak-tiktok-box iframe, .rancak-instagram-box iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
-
-
-
-.sidebar-container{display:grid; grid-gap:var(--size-5);}
 
 
 

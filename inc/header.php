@@ -1,6 +1,6 @@
 <header class="rancak-container">
   <div class="rancak-container-max header-container">
-    <a title="Kembali ke halaman utama" class="header-link header-logo content_center">
+    <a title="Kembali ke halaman utama" class="header-link header-logo content_center" href="">
       <?php require ($_SERVER['OG'].'img/logo.svg')?>
     </a>
 	<button title="Tampilkan sosial media kami" data-popup="Socmed" class="open-popup header-link header-toggle content_center mobile-only">
