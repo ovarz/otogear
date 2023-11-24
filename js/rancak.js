@@ -6,7 +6,7 @@ function ClosePopup(){
 
 
 /* scroll script */
-var all_scroll = function(){
+function all_scroll(){
   "use strict";	
 
   $(window).scroll(function(){
@@ -25,7 +25,7 @@ var all_scroll = function(){
 
 
 
-var back_to_top = function(){
+function back_to_top(){
   "use strict";
   $('#btt').click(function(){
 	$('body,html').scrollTop(0);
@@ -35,8 +35,23 @@ var back_to_top = function(){
 
 
 
+function open_popup(){
+  "use strict";
+  $('.open-popup').click(function(){
+    var get_id = $(this).attr('data-popup');
+	$('.open-popup[data-popup=' + get_id +']').toggleClass('show-popup');
+	$('.open-popup').not('.open-popup[data-popup=' + get_id +']').removeClass('show-popup');
+    $('#popup-' + get_id).slideToggle('fast');
+    $('.rancak-popup').not('#popup-' + get_id).slideUp('fast');
+	return false;
+  });	
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
+  open_popup();
 });

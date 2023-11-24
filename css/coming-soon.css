@@ -1,12 +1,10 @@
 .rancak-box{padding:var(--size-5);}
-.rancak-logo .svgicon{max-width:100%; height:auto;}
+.rancak-logo .svgicon{width:100%; max-width:360px; height:auto;}
 
 .rancak-gateway{display:flex; flex-wrap:wrap; justify-content:center; margin-top:var(--size-5);}
 .rancak-logo{color:var(--color-default-2); fill:var(--color-default-2); transition:var(--transition-default);}
-.rg-link{display:flex; align-items:center; margin:var(--size-2) var(--size-3);}
+.rg-link{margin:var(--size-2) var(--size-3);}
 .rg-icon{height:var(--size-4);}
-.rg-icon .svgicon{width:auto; height:100%;}
-.rg-label{margin-left:var(--size-2); font-size:16px;}
 
 .coming-soon{min-height:calc(100vh - var(--footer-height)); min-height:calc(100svh - var(--footer-height));}
 

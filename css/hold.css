@@ -38,10 +38,22 @@ header{background-color:var(--bg-1);}
 
 
 
+.article-link{border-color:rgb(var(--color-border-light) / 21%);}
+.article-thumb-frame{border-radius:var(--rounded-2);}
+.article-date{color:var(--color-default-1);}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  
+  .header-toggle.show-popup{background-color:var(--color-default-3); padding-left:var(--size-4); fill:var(--bg-1);}
+  .header-toggle.show-popup .svgicon{transform:rotate(180deg);}
+  .header-toggle .svgicon{transition:var(--transition-default);}
+  .popup-socmed{width:100%;}
+  .popup-socmed-list{display:grid; width:100%;}
+  .popup-socmed .header-socmed{border-top:1px dashed rgb(var(--color-border-dark) / 21%); background-color:var(--color-default-3);
+  justify-content:flex-start; padding:0 var(--size-4); font-weight:bold; color:var(--bg-1); fill:var(--bg-1);}
 }
 
 
