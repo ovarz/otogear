@@ -18,5 +18,29 @@
 	</div>
   </div>
 </div>
+
+
+
+<!--
+<div class="youtube-playlist">
+  <div class="youtube-playlist-frame flex_ori thumb-loading">
+    <iframe width="560" height="315" class="lazyload" data-original="https://www.youtube.com/embed/videoseries?si=pECkYfnKOxXrsXPA&amp;list=PLX6nLBE9jIqj7J3zhDsCDl0eC2MWhRed5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+<div class="article-last">
+  <section title="Daftar Artikel" class="article-list">
+    <div class="section-title">Artikel</div>
+      <div class="article-card">
+        <php for ($i=1; $i <= 4 ; $i++) { ?>
+          <php require ($_SERVER['OG'].'module/content-list.php')?>
+        <php } ?>
+      </div>
+	</div>
+  </section>
+</div>
+-->
 <?php require ($_SERVER['OG'].'inc/footer.php')?>
 <?php require ($_SERVER['OG'].'inc/base-bottom.php')?>
