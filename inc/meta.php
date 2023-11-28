@@ -1,4 +1,11 @@
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0T54M6VKLW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0T54M6VKLW');
+</script>
 <title><?php echo $site_title; ?></title>
 <meta charset="utf-8">
 <meta name="robots" content="index, follow">	
