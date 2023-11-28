@@ -44,6 +44,6 @@
 -->
 
 
- 
+
 <?php require ($_SERVER['OG'].'inc/footer.php')?>
 <?php require ($_SERVER['OG'].'inc/base-bottom.php')?>
